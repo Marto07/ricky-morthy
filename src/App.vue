@@ -3,7 +3,7 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <div class="bg-gray-950 text-white min-h-screen scrollbar-stable">
+  <div class="bg-gray-950 text-white min-h-screen scrollbar-stable flex flex-col">
     <!-- Header -->
     <header class="p-6 max-w-full md:max-w-4xl md:mx-auto text-center">
       <RouterLink to="/"> 
@@ -42,7 +42,7 @@ import { RouterLink, RouterView } from 'vue-router'
     </nav>
 
     <!-- Contenido -->
-    <main class="p-6 max-w-full md:max-w-4xl md:mx-auto">
+    <main class="p-6 max-w-full md:max-w-4xl md:mx-auto flex-grow">
       <RouterView />
     </main>
     <!-- Footer -->
