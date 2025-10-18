@@ -45,6 +45,10 @@ import { RouterLink, RouterView } from 'vue-router'
     <main class="p-6 max-w-full md:max-w-4xl md:mx-auto">
       <RouterView />
     </main>
+    <!-- Footer -->
+    <footer class="text-center text-gray-500 text-sm opacity-50 py-6 select-none">
+      © 2025 <span class="text-vue-green">Martin Coppa</span>. Todos los derechos reservados.
+    </footer>
   </div>
 </template>
 
