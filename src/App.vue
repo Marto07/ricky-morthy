@@ -4,20 +4,20 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <div class="bg-gray-950 text-white min-h-screen scrollbar-stable">
-    <!-- Header con título y subtítulo -->
-    <header class="p-6 max-w-4xl mx-auto text-center">
+    <!-- Header -->
+    <header class="p-6 max-w-full md:max-w-4xl md:mx-auto text-center">
       <RouterLink to="/"> 
         <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-vue-green cursor-pointer">
           Portal Finder 3000
         </h1>
-    </RouterLink>
+      </RouterLink>
       <p class="mt-2 text-sm md:text-base text-gray-300 opacity-50">
         Una aplicación web para localizar personajes, ubicaciones y episodios a través del multiverso
       </p>
     </header>
 
-    <!-- Menú de navegación -->
-    <nav class="p-6 max-w-4xl mx-auto flex justify-center gap-6 text-lg font-semibold">
+    <!-- Navegación -->
+    <nav class="p-6 max-w-full md:max-w-4xl md:mx-auto flex justify-center gap-6 text-lg font-semibold">
       <RouterLink
         to="/characters"
         class="text-gray-300 hover:text-vue-green transition"
@@ -41,8 +41,8 @@ import { RouterLink, RouterView } from 'vue-router'
       </RouterLink>
     </nav>
 
-    <!-- Contenido dinámico -->
-    <main class="p-6 max-w-4xl mx-auto">
+    <!-- Contenido -->
+    <main class="p-6 max-w-full md:max-w-4xl md:mx-auto">
       <RouterView />
     </main>
   </div>

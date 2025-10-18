@@ -49,7 +49,7 @@ const toggleStatus = (status) => {
 </script>
 
 <template>
-  <div class="p-6 max-w-4xl mx-auto" ref="containerRef">
+  <div class="md:p-6 max-w-full md:max-w-4xl md:mx-auto" ref="containerRef">
     <div class="mb-4 flex gap-2">
       <input
         v-model="searchQuery"
