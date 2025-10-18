@@ -1,12 +1,12 @@
 <script setup>
-import CharacterList from "../components/CharacterList.vue";
+import EpisodeList from "../components/EpisodeList.vue";
 </script>
 
 <template>
     <div class="max-w-4xl mx-auto">
         <div class="p-6">
-            <h1 class="text-3xl text-center font-bold mb-4 ml-5">Personajes de Rick and Morty</h1>
-            <CharacterList />
+            <h1 class="text-3xl text-center font-bold mb-4 ml-5">Episodios de Rick and Morty</h1>
+            <EpisodeList />
         </div>
     </div>
 </template>
